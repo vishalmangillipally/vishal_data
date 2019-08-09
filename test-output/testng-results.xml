@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="GroupRun" duration-ms="188" started-at="2019-08-07T18:34:43Z" finished-at="2019-08-07T18:34:43Z">
+    <groups>
+      <group name="Sanity">
+        <method signature="TC_S01.meth2()[pri:0, instance:com.hrms.groups.TC_S01@6442b0a6]" name="meth2" class="com.hrms.groups.TC_S01"/>
+        <method signature="TC_S01.meth4()[pri:0, instance:com.hrms.groups.TC_S01@6442b0a6]" name="meth4" class="com.hrms.groups.TC_S01"/>
+        <method signature="TC_S02.meth3()[pri:0, instance:com.hrms.groups.TC_S02@668bc3d5]" name="meth3" class="com.hrms.groups.TC_S02"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC_S01.meth1()[pri:0, instance:com.hrms.groups.TC_S01@6442b0a6]" name="meth1" class="com.hrms.groups.TC_S01"/>
+        <method signature="TC_S01.meth3()[pri:0, instance:com.hrms.groups.TC_S01@6442b0a6]" name="meth3" class="com.hrms.groups.TC_S01"/>
+        <method signature="TC_S02.meth1()[pri:0, instance:com.hrms.groups.TC_S02@668bc3d5]" name="meth1" class="com.hrms.groups.TC_S02"/>
+        <method signature="TC_S02.meth2()[pri:0, instance:com.hrms.groups.TC_S02@668bc3d5]" name="meth2" class="com.hrms.groups.TC_S02"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="GroupRun" duration-ms="188" started-at="2019-08-07T18:34:43Z" finished-at="2019-08-07T18:34:43Z">
+      <class name="com.hrms.groups.TC_S02">
+        <test-method status="PASS" signature="meth1()[pri:0, instance:com.hrms.groups.TC_S02@668bc3d5]" name="meth1" duration-ms="16" started-at="2019-08-08T00:04:43Z" finished-at="2019-08-08T00:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth1 -->
+        <test-method status="PASS" signature="meth2()[pri:0, instance:com.hrms.groups.TC_S02@668bc3d5]" name="meth2" duration-ms="16" started-at="2019-08-08T00:04:43Z" finished-at="2019-08-08T00:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth2 -->
+        <test-method status="PASS" signature="meth3()[pri:0, instance:com.hrms.groups.TC_S02@668bc3d5]" name="meth3" duration-ms="16" started-at="2019-08-08T00:04:43Z" finished-at="2019-08-08T00:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth3 -->
+      </class> <!-- com.hrms.groups.TC_S02 -->
+      <class name="com.hrms.groups.TC_S01">
+        <test-method status="PASS" signature="meth1()[pri:0, instance:com.hrms.groups.TC_S01@6442b0a6]" name="meth1" duration-ms="31" started-at="2019-08-08T00:04:43Z" finished-at="2019-08-08T00:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth1 -->
+        <test-method status="PASS" signature="meth2()[pri:0, instance:com.hrms.groups.TC_S01@6442b0a6]" name="meth2" duration-ms="15" started-at="2019-08-08T00:04:43Z" finished-at="2019-08-08T00:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth2 -->
+        <test-method status="PASS" signature="meth3()[pri:0, instance:com.hrms.groups.TC_S01@6442b0a6]" name="meth3" duration-ms="32" started-at="2019-08-08T00:04:43Z" finished-at="2019-08-08T00:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth3 -->
+        <test-method status="PASS" signature="meth4()[pri:0, instance:com.hrms.groups.TC_S01@6442b0a6]" name="meth4" duration-ms="15" started-at="2019-08-08T00:04:43Z" finished-at="2019-08-08T00:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth4 -->
+      </class> <!-- com.hrms.groups.TC_S01 -->
+    </test> <!-- GroupRun -->
+  </suite> <!-- GroupRun -->
+</testng-results>

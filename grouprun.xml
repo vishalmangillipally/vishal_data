@@ -1,0 +1,15 @@
+<suite name="GroupRun" verbose="1" >
+ <test name="GroupRun">
+ <groups>
+ <run>
+ <include name="Regression"/>
+ <include name="Sanity"/>
+ <exclude name="Functional"/>
+ </run>
+ </groups>
+ <classes>
+ <class name="com.hrms.groups.TC_S01"/>
+ <class name="com.hrms.groups.TC_S02"/>
+ </classes>
+ </test>
+</suite>
